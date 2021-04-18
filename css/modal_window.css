@@ -28,14 +28,14 @@
     border-radius: 10px;
     background: #fff;
 }
-p{
+#okno p{
     font-family: Montserrat;
     font-size: 30px;
     font-weight: bold;
     text-align: left;
     color: #5c2dbb;
 }
-input{
+#okno input{
     font-size: 20px;
     width: 450px;
     height: 75px;
