@@ -26,6 +26,9 @@
 	.fifth_row_description{
 		font-size: 13px;
 	}
+	.list{
+		width: 100vw;
+	}
 }
 
 @media (max-width: 480px){
@@ -507,9 +510,10 @@
 /*************************   MD   ***************************/
 /************************************************************/
 @media (min-width: 768px) and (max-width: 991.98px) {
-	.container{
-		/*padding: 0 15px;*/
-	}
+
+	/*.hamburger .bar{
+		display: inline-block;
+	}*/
 	header{
 		font-size: 18px;
 	}
@@ -525,7 +529,7 @@
 	nav #nav_btn{
 		width: 214px;
 		height: 56px;
-		margin: 0 15px 0 15px;
+		margin: 0 100px 0 15px;
 		padding: 10px 0 0 0;
 	}
 	#menu{
@@ -619,7 +623,7 @@
 	.fifth_row_description{
 		font-size: 14px;
 	}
-	.fifth_row div > div:hover p.fifth_row_name{
+/*	.fifth_row div > div:hover p.fifth_row_name{
 		margin: 30px 0 0 0;
 	}
 		.fifth_row div > div:hover p.fifth_row_name{
@@ -636,13 +640,16 @@
 	.fifth_row div > div:hover div.fifth_row_small_tex_right{
 		left: 15px;
 		width: calc(100% - 15px);
-	}
+	}*/
 
 }
 /************************************************************/
 /*************************   LG   ***************************/
 /************************************************************/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	.hamburger .bar{
+		display: none;
+	}
 	.logo{
 		margin: 15px 0 0 15px;
 	}
@@ -692,8 +699,16 @@
 /**************************************************************/
 /*************************   XL   *****************************/
 /**************************************************************/
-@media (min-width: 1200px)(max-width: 1399.98px) {
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.hamburger .bar{
+		display: none;
+	}
 	.third_row{
 		min-height: 1120px;
+	}
+}
+@media (min-width: 1400px){
+	.hamburger .bar{
+		display: none;
 	}
 }
