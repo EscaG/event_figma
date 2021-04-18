@@ -54,6 +54,9 @@
 	.hamburger {
 		top: -5px;
 	}
+	.checkbox3:checked + label > .hamburger{
+	    top: 30px;
+	}
 	.logo{
 		/*margin: 0 0 0 15px;*/
 		height: 58px;
@@ -294,6 +297,9 @@
 	}
 	.hamburger {
 		top: -3px;
+	}
+	.checkbox3:checked + label > .hamburger{
+	    top: 40px;
 	}
 	.logo{
 		margin: 0 0 0 15px;
@@ -544,7 +550,7 @@
 		display: none;
 	}
 	.first_row{
-		/*padding: 0 15px;*/
+		padding: 0 15px;
 	}
 	.second_row{
 		padding: 45px 15px;
@@ -662,6 +668,9 @@
 	}
 	.header_phone{
 		font-size: 18px;
+	}
+	.first_row{
+		padding: 0 15px;
 	}
 	.second_row{
 		padding: 45px 24px;
