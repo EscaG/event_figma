@@ -32,9 +32,12 @@
 @media (max-width: 575.98px) {
 	header{
 		padding: 0 15px;
+		height: 90px;
 	}
 	.logo{
 		/*margin: 0 0 0 15px;*/
+		height: 58px;
+		width: 58px;
 	}
 	.header_phone{
 		display: none;
@@ -187,7 +190,7 @@
 	}
 	.fifth_row_text{
 		width: calc(100% - 35px);
-		padding:  12px 12px 0 12px;
+		padding:  8px 8px 0 8px;
 		height: 70px;
 		border-radius: 15px;
 	}
@@ -212,20 +215,20 @@
 	}
 	
 	.fifth_row_text p.fifth_row_name{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.fifth_row_text span{
-		font-size: 14px;
+		font-size: 12px;
 	}
 	.fifth_row_description{
-		font-size: 14px;
+		font-size: 12px;
 	}
 
-	.fifth_row div > div:hover p.fifth_row_description{
-		margin: 10px  0 0 0;
-	}
 	.fifth_row div > div:hover p.fifth_row_name{
 		margin: 0 0 0 0;
+	}
+	.fifth_row div > div:hover p.fifth_row_description{
+		margin: 10px  0 0 0;
 	}
 	.fifth_row div > div:hover div.fifth_row_small_text_left{
 		left: 0;
@@ -242,8 +245,13 @@
 /*************************   SM   ***************************/
 /************************************************************/
 @media (min-width: 576px) and (max-width: 767.98px) {
+	header{
+		height: 122px;
+	}
 	.logo{
 		margin: 0 0 0 15px;
+		height: 90px;
+		width: 90px;
 	}
 	.header_phone{
 		display: none;
