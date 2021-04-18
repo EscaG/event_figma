@@ -1,0 +1,281 @@
+@media (max-width: 575.98px) {
+	header{
+		padding: 0 15px;
+	}
+	.logo{
+		margin: 0 0 0 15px;
+	}
+	.header_phone{
+		display: none;
+	}
+	nav #nav_btn{
+		display: none;
+	}
+	#menu{
+		display: none;
+	}
+	.full_cover h1{
+		font-size: 26px;
+		margin: 143px 0 0 15px;
+	}
+	.full_cover .first_row p{
+		margin: 30px 15px;
+		font-size: 19px;
+		max-width: 417px;
+	}
+	.full_cover .first_row a{
+		margin: 0 0 0 15px;
+	}
+	.sec_row_blockimg{
+		padding: 40px  0 0 0;
+	}
+	.second_row img {
+		width: calc(100% - 15px);
+	}
+	.second_row h3{
+		font-size: 22px;
+		margin: 0 0 25px 15px;
+	}
+	.second_row p{
+		font-size: 16px;
+		margin: 0 15px;
+	}
+	#second_row_first_img{
+		transform: translateY(0);
+		display: none;
+	}
+	#second_row_second_img{
+		display: none;
+	}
+	.sec_row_blockimg .small_image{
+		display: block;
+		margin: 0 0 15px 0;
+	}
+	.third_row{
+		padding: 0 15px;
+		min-height: 1050px;
+	}
+	.third_row h3{
+		font-size: 22px;
+		margin: 0 0 25px 0;
+	}
+	.third_row_block_to_image1, 
+	.third_row_block_to_image2, 
+	.third_row_block_to_image3 {
+		transform: translateY(0);
+		text-align: center;
+	}
+	.third_row_small_transform1{
+		text-align: left;
+	}
+	.third_row_small_transform2{
+		transform: translateY(45px);
+		text-align: right;
+	}
+	.third_row_block_to_image1 p,
+	.third_row_block_to_image2 p,
+	.third_row_block_to_image3 p{
+		padding: 0;
+		text-align: left;
+	}
+	.third_row_small_transform2 p{
+		padding: 0 0 0 20px;
+	}
+	.third_row p{
+		font-size: 16px;
+	}
+
+
+	.fourth_row{
+		padding: 0 15px;
+	}
+	#fr_change_image{
+		display: none;
+	}
+	#fr_change_xs_image{
+		display: inline-block;
+	}
+
+
+
+}
+/************************************************************/
+/*************************   SM   ***************************/
+/************************************************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.logo{
+		margin: 0 0 0 15px;
+	}
+	.header_phone{
+		display: none;
+	}
+	nav #nav_btn{
+		display: none;
+	}
+	#menu{
+		display: none;
+	}
+	#full_cover_btn{
+		margin: 0 0 0 15px;
+	}
+	.full_cover h1{
+		font-size: 26px;
+		margin: 143px 0 0 15px;
+	}
+	.full_cover .first_row p{
+		margin: 30px 15px;
+		font-size: 19px;
+		max-width: 417px;
+	}
+	.second_row{
+		padding: 45px 15px;
+	}
+	.second_row h3{
+		font-size: 22px;
+		margin: 0 0 25px 0;
+	}
+	.second_row p{
+		font-size: 16px;
+		margin: 0 0;
+	}
+	.sec_row_blockimg div{
+		/*padding: 0 7px 0 0; */
+	}
+	#second_row_first_img{
+		transform: translateY(45px) ;
+	}
+	.third_row{
+		min-height: calc(100% + 100px);
+		margin: 0 0 100px 0;
+		padding: 0 15px;
+	}
+	.third_row p{
+		font-size: 16px;
+	}
+
+
+
+}
+/************************************************************/
+/*************************   MD   ***************************/
+/************************************************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container{
+		/*padding: 0 15px;*/
+	}
+	header{
+		font-size: 18px;
+	}
+	nav ul li{
+	margin: 0 30px 0 0;
+	}
+	nav > img{
+	margin: 0 15px 0 0;
+	}
+	.logo{
+		margin: 15px 0 0 15px;
+	}
+	nav #nav_btn{
+		width: 214px;
+		height: 56px;
+		margin: 0 15px 0 15px;
+		padding: 10px 0 0 0;
+	}
+	#menu{
+		display: none;
+	}
+	.first_row{
+		/*padding: 0 15px;*/
+	}
+	.second_row{
+		padding: 45px 15px;
+	}
+	.second_row h3{
+		/*margin: 0 0 25px 15px;*/
+	}
+	.second_row p{
+		/*margin: 0 15px;*/
+	}
+	.sec_row_blockimg div{
+		/*padding: 0 7px 0 0; */
+	}
+/******************************************/
+/****************THIRD ROW*****************/
+/******************************************/
+	.third_row{
+		min-height: 100%;
+		margin: 0 0 100px 0;
+		padding: 0 15px;
+	}
+
+/*	.third_row_block_to_image1{
+		transform: translateY(0);
+		text-align: center;
+	}
+	.third_row_block_to_image2{
+		transform: translateY(0);
+		text-align: center;
+	}
+	.third_row_block_to_image3{
+		text-align: center;
+		transform: translateY(0);
+	}*/
+/******************************************/
+/***************FOURTH ROW*****************/
+/******************************************/
+
+
+/******************************************/
+/****************FIFTH ROW*****************/
+/******************************************/
+	.fifth_row_text p.fifth_row_name{
+		font-size: 18px;
+	}
+	.fifth_row_text span{
+		font-size: 14px;
+	}
+	.fifth_row_description{
+		font-size: 14px;
+	}
+
+}
+/************************************************************/
+/*************************   LG   ***************************/
+/************************************************************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.logo{
+		margin: 15px 0 0 15px;
+	}
+	nav ul li{
+		margin: 0 30px 0 0;
+	}
+	nav a{
+		font-size: 18px;
+	}
+	nav #nav_btn{
+		margin: 0 15px 0 15px;
+		font-size: 18px;
+		width: 214px;
+		height: 56px;
+		padding: 10px 0 0 0;
+	}
+	.header_phone{
+		font-size: 18px;
+	}
+	.second_row{
+		padding: 45px 24px;
+	}
+	.third_row{
+		min-height: 100%;
+		margin: 0 0 100px 0;
+		padding: 0 24px;
+	}
+}
+/**************************************************************/
+/*************************   XL   *****************************/
+/**************************************************************/
+@media (min-width: 1200px)(max-width: 1399.98px) {
+	.third_row{
+		min-height: 1120px;
+	}
+}
