@@ -207,9 +207,6 @@ main section.first_row{
 	padding: 0 0 0 20px;
 	text-align: left;
 }
-.third_row img{
-	/*width: 100%;*/
-}
 .third_row_block_to_image1{
 
 }
@@ -339,7 +336,7 @@ main section.first_row{
 }
 .fifth_row div > div:hover p.fifth_row_description{
 	display: block;
-	/*margin: 20px 0 0 0;*/
+	margin: 20px 0 0 0;
 	text-align: left;
   	color: #ffffff;
 }
