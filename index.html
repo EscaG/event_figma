@@ -13,19 +13,48 @@
 	<link rel="stylesheet" type="text/css" href="css/burger.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/modal_window.css">
 
 </head>
 <body>
 
-				
+		<div id="popup">
+      <form id="okno">
+        <p>Оставить Заявку</p>
+        <input required type="text" placeholder="Имя">
+        <input required type="phone" placeholder="Номер телефона">
+        <a href="#popup_ok" class="closer">Отправить</a>
+      </form>
+    </div>
+    <div id="popup_ok">
+      <form id="okno">
+      	<h3>Заявка принята</h3>
+        <img src="img/ok.png" alt="ok" id="ok">
+        <span>Наш менеджер свяжется с Вами в ближайшее время</span>
+        <a href="#" class="closer">Вернуться</a>
+
+      </form>
+    </div>
+
 	<div class="container-fluid">
-		
 		<div class="container">
+
+
+
+
 			<header class="row no-gutters justify-content-between">
 				<nav class="col-auto align-self-center">
 					<img src="img/logo.png" alt="logo" class="logo">
+					<ul id="menu">
+						<li><a href="#about">О нас</a></li>
+						<li><a href="#events">Ивенты</a></li>
+						<li><a href="#news">Новости</a></li>
+						<li><a href="#teams">Команда</a></li>
+					</ul>
 				</nav>
 				<nav class="col-auto align-self-center">
+
+
 					<input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
 					<label for="checkbox3">
 						<div class="hamburger hamburger3">
@@ -37,21 +66,18 @@
 					</label>
 
 				  <ul class="list">
-					  <li><a href="#">О нас</a></li>
-					  <li><a href="#">Ивенты</a></li>
-					  <li><a href="#">Новости</a></li>
-					  <li><a href="#">Команда</a></li>
+					  <li><a href="#about">О нас</a></li>
+					  <li><a href="#events">Ивенты</a></li>
+					  <li><a href="#news">Новости</a></li>
+					  <li><a href="#teams">Команда</a></li>
 					  <li class="burger_change" id="burger_phone"><a  href="#">+38 (093) 345-04-50</a></li>
-					  <li class="burger_change"><a id="burger_send" href="#">Заказать звонок</a></li>
+					  <li class="burger_change"><a id="burger_send" href="#popup">Заказать звонок</a></li>
 				  </ul>
-					<ul id="menu">
-						<li><a href="#">О нас</a></li>
-						<li><a href="#">Ивенты</a></li>
-						<li><a href="#">Новости</a></li>
-						<li><a href="#">Команда</a></li>
-					</ul>
+
+					
+
 					<div><a href="#" class="header_phone">+38 (093) 345-04-50</a></div>
-					<div><a href="#" id="nav_btn">Заказать звонок</a></div>
+					<div><a href="#popup" id="nav_btn">Заказать звонок</a></div>
 				</nav>
 			</header>
 		</div>
@@ -71,7 +97,7 @@
 							<div class="col-12">
 								<h1>ОРГАНИЗУЕМ ВАШЕ СОБЫТИЕ</h1>
 								<p>Для сотрудников, клиентов, гостей.Креативно. Грамотно. Слажено. Успешно. С удовольствием</p>
-								<a href="#" id="full_cover_btn">Заказать звонок</a>
+								<a href="#popup" id="full_cover_btn">Заказать звонок</a>
 							</div>
 						</div>
 					</section>
@@ -82,7 +108,7 @@
 				<section class="container second_row">
 					<div class="row no-gutters">
 						<div class="col-6">
-							<h3>Кто мы такие</h3>
+							<h3 id="about">Кто мы такие</h3>
 							<p>13 лет наше агентство создает незабываемые праздничные мероприятия, вдохновляет и зажигает сердца.</p>
 							<br>
 	    					<p>Зажигая ивенты, мы развиваем бизнес наших клиентов, создавая новое качество жизни для всего общества</p>
@@ -114,7 +140,7 @@
 
 				<section class="container third_row">
 					<div class="row no-gutters">
-						<h3 class="col-12">Какие ивенты мы проводим</h3>
+						<h3 id="events" class="col-12">Какие ивенты мы проводим</h3>
 						
 						<div class="w-100"></div>
 
@@ -164,7 +190,7 @@
 
 				<section class="container fourth_row">
 					<div class="row no-gutters">
-						<h3 class="col-12">Недавние события</h3>
+						<h3 id="news" class="col-12">Недавние события</h3>
 
 						<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 fourth_row_left fourth_row_small_left">
 							<img class="fr_change_image" src="img/fourth_row_img1.jpg" alt="img">
@@ -211,7 +237,7 @@
 				<section class="container fifth_row">
 					<div class="row no-gutters">
 
-						<h3 class="col-12">Наша команда</h3>
+						<h3 id="teams" class="col-12">Наша команда</h3>
 
 						<div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4 fifth_row_left fifth_row_small_left">
 							<img class="fifth_row_big_image" src="img/fifth_row_img1.jpg" alt="img">
@@ -292,7 +318,7 @@
 						<p class="phone">+38 (063) 250-88-96</p>
 						<br>
 						<p class="phone">+38 (063) 575-04-87</p>
-						<a href="#" id="to_order_call">Заказать звонок</a>
+						<a href="#popup" id="to_order_call">Заказать звонок</a>
 						<a href="#" id="write">Написать письмо</a>
 						<span class="all_rights">2021 © Все права защищены</span>
 					</div>
@@ -317,20 +343,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="library/bootstrap.min.js"></script>
-
-	<script src="js/main.js"></script>
 
 </body>
 </html>

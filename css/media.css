@@ -1,8 +1,6 @@
 @media (max-width: 320px){
 	.top_row{
 		height: 498px;
-	/*	background: url(../img/full.png)center center no-repeat;
-	  	background-size: cover;*/
 	}
 	.full_cover h1{
 		font-size: 17px;
@@ -58,7 +56,6 @@
 	    top: 30px;
 	}
 	.logo{
-		/*margin: 0 0 0 15px;*/
 		height: 58px;
 		width: 58px;
 	}
@@ -342,7 +339,6 @@
 		margin: 0 0;
 	}
 	.sec_row_blockimg div{
-		/*padding: 0 7px 0 0; */
 	}
 	#second_row_first_img{
 		transform: translateY(45px) ;
@@ -525,9 +521,6 @@
 	.burger_change{
 		display: none;
 	}
-	/*.hamburger .bar{
-		display: inline-block;
-	}*/
 	header{
 		font-size: 18px;
 	}
