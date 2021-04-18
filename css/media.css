@@ -244,7 +244,7 @@
 	}
 
 	.fifth_row div > div:hover p.fifth_row_name{
-		margin: 20px 0 0 0;
+		margin: 18px 0 0 0;
 		/*font-size: 14px;*/
 	}
 	.fifth_row div > div:hover p.fifth_row_description{
