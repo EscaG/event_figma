@@ -182,6 +182,9 @@ main section.first_row{
 .third_row img {
 	width: calc(100% - 20px);
 }
+.third_row_small_image{
+	display: none;
+}
 .third_row h3{
 	font-size: 30px;
 	font-weight: 700;
@@ -218,12 +221,7 @@ main section.first_row{
 	text-align: right;
 	transform: translateY(90px);
 }
-.third_row .third_row_second_img{
-	/*margin: 45px 0 0 0;*/
-}
-.third_row .third_row_third_img{
-	/*margin: 90px 0 0 0;*/
-}
+
 
 /******************************************/
 /****************FOURTH ROW****************/
@@ -315,10 +313,10 @@ main section.first_row{
 	left: 50px;
 }
 .fifth_row_text p.fifth_row_name{
+	font-family: Montserrat-Medium;
 	font-size: 26px;
   	text-align: left;
   	color: #ffffff;
-  	font-weight: 500;
 }
 .fifth_row_text span{
 	font-size: 20px;
@@ -327,6 +325,7 @@ main section.first_row{
   	display: block;
 }
 .fifth_row_description{
+	font-family: Montserrat-Medium;
 	display: none;
 	margin: 20px 0 0 0;
 	font-size: 22px;

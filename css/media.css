@@ -93,6 +93,12 @@
 	.third_row img {
 		width: calc(100% - 15px);
 	}
+	.third_row_big_image{
+		display: none;
+	}
+	.third_row_small_image{
+		display: inline-block;
+	}
 	.third_row h3{
 		font-size: 22px;
 		margin: 0 0 25px 0;
@@ -120,7 +126,7 @@
 		padding: 0 0 0 15px;
 	}
 	.third_row p{
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 
@@ -206,13 +212,13 @@
 	}
 	
 	.fifth_row_text p.fifth_row_name{
-		font-size: 17px;
+		font-size: 18px;
 	}
 	.fifth_row_text span{
 		font-size: 14px;
 	}
 	.fifth_row_description{
-		font-size: 13px;
+		font-size: 14px;
 	}
 
 	.fifth_row div > div:hover p.fifth_row_description{
@@ -290,6 +296,15 @@
 	}
 	.third_row img {
 		width: calc(100% - 15px);
+	}
+	.third_row p{
+		font-size: 16px;
+	}
+	.third_row_big_image{
+		display: none;
+	}
+	.third_row_small_image{
+		display: inline-block;
 	}
 	.third_row p{
 		font-size: 16px;
@@ -403,17 +418,20 @@
 		font-size: 20px;
 	}
 	.fifth_row_text span{
-		font-size: 16px;
+		font-size: 17px;
 	}
 	.fifth_row_description{
 		font-size: 17px;
 	}
 
-	.fifth_row div > div:hover p.fifth_row_description{
-		margin: 15px  0 0 0;
-	}
 	.fifth_row div > div:hover p.fifth_row_name{
-		margin: 0 0 0 0;
+		margin: 30px 0 0 0;
+	}
+	.fifth_row div > div:hover span{
+		margin: 5px 0 0 0;
+	}
+	.fifth_row div > div:hover p.fifth_row_description{
+		margin: 25px  0 0 0;
 	}
 	.fifth_row div > div:hover div.fifth_row_small_text_left{
 		left: 0;
@@ -476,6 +494,15 @@
 		min-height: 100%;
 		margin: 0 0 100px 0;
 		padding: 0 15px;
+	}
+	.third_row p{
+		font-size: 18px;
+	}
+	.third_row_big_image{
+		display: none;
+	}
+	.third_row_small_image{
+		display: inline-block;
 	}
 
 
@@ -560,6 +587,12 @@
 		min-height: 100%;
 		margin: 0 0 100px 0;
 		padding: 0 24px;
+	}
+	.third_row_big_image{
+		display: none;
+	}
+	.third_row_small_image{
+		display: inline-block;
 	}
 	.fourth_row{
 		padding: 0 24px;
