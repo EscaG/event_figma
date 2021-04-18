@@ -233,12 +233,12 @@ main section.first_row{
 /******************************************/
 
 .fourth_row{
-	height: 735px;
+	min-height: 735px;
 }
 .fourth_row img {
 	width: calc(100% - 20px);
 }
-#fr_change_xs_image{
+.fr_change_xs_image{
 	display: none;
 }
 .fourth_row h3{
