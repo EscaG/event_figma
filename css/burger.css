@@ -109,15 +109,31 @@ ul.list li{
 }
 ul.list li a{
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     text-decoration: none;
     font-size: 24px;
     box-sizing: border-box;
-    padding: 10px 25px;
+    padding: 5px 16px;
     color: #fff;
 }
 ul.list li a:hover{
     background-color: lightgray;
     text-decoration: none;
     color: #000;
+}
+#burger_phone{
+    padding: 15px 0 0 0 ;
+}
+ul.list li:last-child{
+    margin: 10px 0 0 0 ;
+}
+#burger_send{
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 0 0 0 16px;
+    /*width: 270px;*/
 }
