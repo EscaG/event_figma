@@ -173,6 +173,12 @@
 	.fifth_row img {
 		width: calc(100% - 15px);
 	}
+	.fifth_row_big_image{
+		display: none;
+	}
+	.fifth_row_small_image{
+		display: inline-block;
+	}
 	.fifth_row_text{
 		width: calc(100% - 35px);
 		padding:  12px 12px 0 12px;
@@ -343,6 +349,12 @@
 	.fifth_row img {
 		width: calc(100% - 15px);
 	}
+	.fifth_row_big_image{
+		display: none;
+	}
+	.fifth_row_small_image{
+		display: inline-block;
+	}
 	.fifth_row_left{
 		transform: translateY(0);
 		position: relative;
@@ -363,7 +375,7 @@
 
 	.fifth_row_text{
 		width: calc(100% - 60px);
-		padding: 12px;
+		padding: 17px;
 		height: 90px;
 		border-radius: 15px;
 	}
