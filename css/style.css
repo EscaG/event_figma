@@ -228,8 +228,8 @@ main section.first_row{
 /*****************FIFTH ROW****************/
 /******************************************/
 .fifth_row{
-    min-height: 1250px;
-    /*height: 100%;*/
+    height: 100%;
+    margin-bottom: 140px;
 }
 .fifth_row h3{
     font-size: 30px;

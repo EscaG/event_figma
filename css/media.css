@@ -45,6 +45,33 @@
 	}
 }
 @media (max-width: 575.98px) {
+	div #okno{
+		width: 90%;
+		height: 395px;
+	}
+	div #okno p{
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	div #okno input{
+		height: 50px;
+		margin: 0 0 40px 0;
+	}
+	div .closer{
+		height: 50px;
+		padding: 5px;
+	}
+	div #ok{
+		margin: 20px auto;
+		height: 90px;
+	}
+	div #okno h3{
+		font-size: 24px;
+		/*margin-bottom: 30px;*/
+	}
+	div #okno span{
+		font-size: 20px;
+	}
 	header{
 		padding: 0 15px;
 		height: 90px;
